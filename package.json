@@ -1,0 +1,23 @@
+{
+    "name": "cr-servicelocator",
+    "version": "0.1.0",
+    "description": "Simple Dependency Injection Container",
+    "author": "Michael Bauer",
+    "keywords" : ["DIC", "Dependency Injection Container", "IOC", "Inversion of Control", "Servicemanager", "Servicelocator"],
+    "main": "lib/servicelocator.js",
+    "scripts": {
+        "test": "./node_modules/.bin/_mocha --recursive -c tests -R list -r should"
+    },
+    "repository" :
+    {
+        "type" : "git",
+        "url" : "https://github.com/ContentRex/node-servicelocator.git"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "^1.20.1",
+        "should": "^4.0.0"
+    },
+    "private": true
+}
